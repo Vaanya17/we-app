@@ -1,0 +1,15 @@
+# Initialize a git repository
+git init
+
+# Add all files to the staging area
+git add .
+
+# Commit the changes
+git commit -m "Initial commit of Flask web app"
+
+# Add the GitHub repository as a remote
+git remote add origin https://github.com/<your-username>/<repository-name>.git
+
+# Push the code to GitHub
+git branch -M main
+git push -u origin main
